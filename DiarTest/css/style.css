@@ -1,0 +1,37 @@
+:root {
+    --burgundy-light: #9a545e;
+    --burgundy: #4A121A;
+    --burgundy-dark: #350C12;
+    --gold: #C5A059;
+    --ivory: #FAF6F0;
+    --ivory-dark: #F0E6D8;
+    --text: #222;
+    --serif: 'Playfair Display', serif;
+    --banner-height: 46px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: var(--ivory);
+    color: var(--text);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: var(--serif); }
+section { padding: 80px 16px; max-width: 1200px; margin: 0 auto; }
+img { display: block; }
+
+.announcement-banner {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 1001;
+    height: var(--banner-height);
+    display: flex; align-items: center; justify-content: center;
+    padding: 0 16px;
+    background: var(--burgundy-dark);
+    color: var(--ivory);
+    font-size: 9.5px; font-weight: 500; letter-spacing: 1px;
+    text-transform: uppercase; text-align: center; line-height: 1.4;
+}

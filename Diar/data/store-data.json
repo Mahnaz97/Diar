@@ -1,0 +1,158 @@
+{
+  "collections": [
+    {
+      "id": "col-1",
+      "title": "Bamiyan",
+      "subtitle": "Women Outerwear & Apparel",
+      "image": "https://i.pinimg.com/1200x/b1/1f/c5/b11fc559cf4e2dc7688273010b14ed6e.jpg",
+      "gender": "women"
+    },
+    {
+      "id": "col-2",
+      "title": "Hindu Kush Menswear",
+      "subtitle": "Tailored Blazers & Vests",
+      "image": "https://i.pinimg.com/1200x/c7/9d/95/c79d95b4db8abb4123ff4f3447fdefbc.jpg",
+      "gender": "men"
+    },
+    {
+      "id": "col-3",
+      "title": "Silk Road Evening Wear",
+      "subtitle": "Luxury Silk Ensembles",
+      "image": "https://i.pinimg.com/1200x/c0/a3/cc/c0a3cc0991d75009fc62ff81a95821b0.jpg",
+      "gender": "women"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "The Bamiyan Heritage Coat",
+      "category": "Outerwear",
+      "gender": "women",
+      "price": 680,
+      "rating": 5.0,
+      "reviews": 14,
+      "image": "https://i.pinimg.com/1200x/d9/d3/0a/d9d30a7b28aa4987f132ad64ea052ce7.jpg",
+      "description": "A structured wool-blend long coat featuring dense Hazaragi geometric cross-stitch embroidery along the lapels, cuffs, and back yoke.",
+      "details": [
+        "Heavyweight wool-blend",
+        "Hand-stitched Hazaragi embroidery",
+        "Satin silk inner lining",
+        "Crafted by women artisans in Bamiyan"
+      ],
+      "colors": [
+        "Charcoal",
+        "Deep Navy",
+        "Sand"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "The Hazarajat Evening Midi Dress",
+      "category": "Dresses",
+      "gender": "women",
+      "price": 490,
+      "rating": 4.9,
+      "reviews": 22,
+      "image": "https://i.pinimg.com/1200x/51/07/d6/5107d6543859ec4571642fc48c4f7528.jpg",
+      "description": "Crafted from heavy matte silk in rich Burgundy and Lapis Blue tones, this midi dress is adorned with vibrant gold hand-embroidered motifs.",
+      "details": [
+        "100% Organic Silk",
+        "Hand-embroidered chest panel",
+        "Invisible side zip",
+        "Dry clean only"
+      ],
+      "colors": [
+        "Burgundy",
+        "Lapis Blue",
+        "Ivory"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "The Silk Road Wrap Dress",
+      "category": "Dresses",
+      "gender": "women",
+      "price": 420,
+      "rating": 4.8,
+      "reviews": 9,
+      "image": "https://i.pinimg.com/1200x/2c/77/b3/2c77b38b07fbbcc0f184f3d682a783fb.jpg",
+      "description": "An elegant wrap-style midi dress with structured sleeves, featuring colorful artisanal cuffs celebrating traditional Afghan textile patterns.",
+      "details": [
+        "Cotton-silk blend",
+        "Adjustable wrap tie waist",
+        "Hand-stitched cuff embroidery",
+        "Ethically crafted at home"
+      ],
+      "colors": [
+        "Antique Gold",
+        "Burgundy",
+        "Charcoal"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "The Pamir Velvet Statement Cape",
+      "category": "Outerwear",
+      "gender": "women",
+      "price": 750,
+      "rating": 5.0,
+      "reviews": 18,
+      "image": "https://i.pinimg.com/1200x/fa/4e/43/fa4e430f1a45624ecab4c76af16dd6f8.jpg",
+      "description": "An opulent velvet statement cape adorned with ornate metallic gold and burgundy embroidery. Designed for luxurious warmth.",
+      "details": [
+        "Premium cotton velvet",
+        "Metallic thread embroidery",
+        "Fully lined",
+        "Statement luxury outerwear"
+      ],
+      "colors": [
+        "Burgundy Wine",
+        "Obsidian Black"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "The Hindu Kush Embroidered Blazer",
+      "category": "Outerwear",
+      "gender": "men",
+      "price": 720,
+      "rating": 4.9,
+      "reviews": 11,
+      "image": "https://i.pinimg.com/736x/0a/d4/ea/0ad4ea05c28a2c9074e43e88a2997475.jpg",
+      "description": "A tailored men's blazer in charcoal wool featuring subtle Hazaragi cross-stitch embroidery along the lapels and chest pocket.",
+      "details": [
+        "Tailored wool-blend suiting",
+        "Hand-embroidered lapel trims",
+        "Structured shoulders",
+        "Limited edition batch"
+      ],
+      "colors": [
+        "Charcoal Grey",
+        "Deep Navy",
+        "Black"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "The Zarin Silk Men's Kurta & Vest Set",
+      "category": "Ensemble",
+      "gender": "men",
+      "price": 580,
+      "rating": 4.7,
+      "reviews": 15,
+      "image": "https://i.pinimg.com/736x/e3/27/49/e32749a542a73dc39b4faaa13b63a32d.jpg",
+      "description": "A sophisticated men's ensemble featuring a pure cotton-silk tunic paired with a structured vest featuring intricate geometric embroidery.",
+      "details": [
+        "Pure cotton-silk blend",
+        "Hand-embroidered vest panels",
+        "Breathable luxury weave",
+        "Artisan certified"
+      ],
+      "colors": [
+        "Sand",
+        "Burgundy",
+        "Ivory"
+      ]
+    }
+  ]
+}

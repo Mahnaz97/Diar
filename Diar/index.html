@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Diar ديار | A Heritage You Carry</title>
+    <!-- Google Fonts: Playfair Display & Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Site styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="announcement-banner">
+        Handcrafted Luxury Supporting Women Artisans in Afghanistan &bull; Free Global Shipping Over 3000:-
+    </div>
+
+    <header>
+         <!-- Text and Logo -->
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <img src="images/Deyar-logo.png" alt="Diar logo" class="logo-img">
+                <div class="logo-text">
+                    <div class="logo-main">Diar</div>
+                    <div class="logo-sub">ديار</div>
+                </div>
+            </a>
+
+             <!-- Menu -->
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#all-products">All Products</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#artisans">Hands behind the thread</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+
+             <!-- Language options select -->
+            <div class="nav-right">
+                <select class="lang-select">
+                    <option value="en">English</option>
+                    <option value="sv">Svenska</option>
+                    <option value="fa">فارسی</option>
+                </select>
+
+                 <!-- Wishlist -->
+                <button class="icon-btn" id="wishlistBtn">
+                    <i class="fa-regular fa-heart"></i>
+                    <span class="badge" id="wishlistBadge">0</span>
+                </button>
+
+                 <!-- Shopping bag -->
+                <button class="icon-btn" id="cartBtn" >
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="badge" id="cartBadge">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+        <!-- Hero Banner -->       
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <img src="https://i.pinimg.com/1200x/97/09/87/970987e1bb6272b39ed954bd6947719c.jpg" alt="Diar Afghan Fashion">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-subtitle">Khamak Dozi • Handmade in Afghanistan</span>
+            <h1>A Heritage You Carry</h1>
+            <p>Bridging centuries-old Hazaragi needlework with contemporary luxury silhouette design for women and men. Each piece is a masterpiece of cultural identity.</p>
+            <div class="hero-btns">
+                <a href="#collections" class="btn btn-primary">Explore Collections</a>
+                <a href="#artisans" class="btn btn-outline">Our Artisans</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- collections -->
+    <section id="collections">
+        <div class="section-header">
+            <span class="section-badge">Curated Lineup</span>
+            <h2>Featured Collections</h2>
+            <p>Discover our signature handmade coats and dresses crafted with authentic Hazaragi cross-stitch embroidery.</p>
+        </div>
+        <div class="filter-container" id="collectionFilters">
+            <button class="filter-btn active" data-filter="all" onclick="renderCollections('all')">All</button>
+            <button class="filter-btn" data-filter="women" onclick="renderCollections('women')">Women</button>
+            <button class="filter-btn" data-filter="men" onclick="renderCollections('men')">Men</button>
+        </div>
+        <div class="collections-grid" id="collectionsGrid">
+                    </div>
+    </section>
+
+
+    <!-- All Products -->
+    <section id="all-products">
+        <div class="section-header">
+            <span class="section-badge">Bespoke Catalog</span>
+            <h2>All Products</h2>
+        </div>
+        <div class="filter-container" id="productFilters">
+            <button class="filter-btn active" data-filter="all" onclick="renderProducts('all')">All Pieces</button>
+            <button class="filter-btn" data-filter="women" onclick="renderProducts('women')">Women</button>
+            <button class="filter-btn" data-filter="men" onclick="renderProducts('men')">Men</button>
+        </div>
+        <div class="products-grid" id="productsGrid">
+                    </div>
+    </section>
+
+
+
+        <!-- About Diar -->
+    <section id="about" class="story-section">
+        <div class="story-grid">
+            <div class="story-text">
+                <span class="section-badge">About Diar ديار</span>
+                <h2>Rooted in Identity, Tailored for Tomorrow</h2>
+                <p>Diar was founded to rescue, elevate, and celebrate the magnificent embroidery traditions of the Hazara people. Hazaragi motifs—complex geometric patterns and vibrant color bursts—are an authentic visual history of resilience and mountain heritage.</p>
+                <p>By uniting traditional Afghan hand-embroidery with contemporary Western silhouettes for both women and men, we offer accessible luxury for the modern global citizen who values both style and soul.</p>
+                <div class="story-stats">
+                    <div>
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Handmade Embroidery</span>
+                    </div>
+                    <div>
+                        <span class="stat-number">Ethical</span>
+                        <span class="stat-label">Fair Wage Network</span>
+                    </div>
+                </div>
+            </div>
+            <div class="story-img">
+                <img src="https://i.pinimg.com/1200x/79/32/0f/79320ff863ed77a6968afe32e34d7c27.jpg" alt="Atelier Craftsmanship">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Hands behind the thread -->
+    <section id="artisans" class="artisans-section">
+        <div class="artisans-grid">
+            <div class="story-img">
+                <img src="https://i.pinimg.com/736x/69/f6/62/69f66296b9621883287389ab8738a994.jpg" alt="Women Artisans">
+            </div>
+            <div class="artisans-text">
+                <span class="section-badge">Social Mission & Empowerment</span>
+                <h2>Hands Behind the Thread</h2>
+                <p>At the heart of Diar is our community of master women artisans working safely and with dignity from their homes across Afghanistan. By providing consistent work, fair compensation, and high-grade materials, we enable these talented women to support their families and secure financial independence.</p>
+                <ul class="artisans-list">
+                    <li><i class="fa-solid fa-check"></i> Flexible home-based employment ensuring personal safety and comfort.</li>
+                    <li><i class="fa-solid fa-check"></i> Direct fair-trade wages supporting household income and children's education.</li>
+                    <li><i class="fa-solid fa-check"></i> Preservation of ancient Hazaragi needlecraft passed down through generations.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+        <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="logo footer-logo">
+                    <div class="logo-text">
+                        <div class="logo-main">Diar</div>
+                        <div class="logo-sub">ديار</div>
+                    </div>
+                </div>
+                <p>Accessible luxury Afghan Hazaragi fashion for women and men. Elevating traditional hand-embroidery into contemporary outfits with women artisan empowerment.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#collections">Collections</a></li>
+                    <li><a href="#all-products">All Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#artisans">Artisans</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Client Care</h4>
+                <ul>
+                    <li><a href="#contact">Shipping & Delivery</a></li>
+                    <li><a href="#contact">Returns & Exchanges</a></li>
+                    <li><a href="#contact">Size & Fit Guide</a></li>
+                    <li><a href="#contact">Authenticity Guarantee</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p>Subscribe for exclusive updates on coat and dress drops.</p>
+                <form onsubmit="event.preventDefault(); showToast('Subscribed', 'Thank you for subscribing to Diar.'); this.reset();">
+                    <input type="email" class="form-control" placeholder="Email address" required>
+                    <button type="submit" class="btn btn-primary btn-block">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Diar Atelier (ديار). All rights reserved.</p>
+            <p>Trademark verification pending. Persian script: ديار.</p>
+        </div>
+    </footer>
+
+    <div class="modal" id="productModal">
+        <div class="modal-content" id="modalContent"></div>
+    </div>
+
+    <div class="cart-drawer" id="cartDrawer">
+        <div class="cart-backdrop" onclick="toggleCart()"></div>
+        <div class="cart-panel">
+            <div class="cart-header">
+                <h3>Your Shopping Bag</h3>
+                <button class="icon-btn" onclick="toggleCart()"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="cart-body" id="cartBody"></div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Subtotal:</span>
+                    <span id="cartSubtotal">$0.00</span>
+                </div>
+                <button onclick="checkout()" class="btn btn-primary btn-block">Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast" id="toast">
+        <i class="fa-solid fa-circle-check"></i>
+        <div>
+            <h5 id="toastTitle">Notification</h5>
+            <p id="toastDesc">Action successful.</p>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
