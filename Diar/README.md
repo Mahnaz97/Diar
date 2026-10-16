@@ -1,7 +1,9 @@
-# Deyar website
-
+# Diar website
+Just read Diar
+DiarTest is for practicing coding
 ```
-deyar/
+MApping:
+diar/
 ├── index.html
 ├── css/style.css
 ├── js/main.js
